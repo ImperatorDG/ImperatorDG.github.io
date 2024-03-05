@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(to right top, #d16ba5, #e3739b, #f17d90, #fa8b87, #fe9a80, #ffa67b, #ffb377, #ffc075, #ffcd71, #ffdb6f, #ffe96f, #f9f871);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+    }
+
+#logo{
+    width: 7%;
+    height: 7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2cm;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+header h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2cm;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+
+body{
+    margin-top: 10%;
+}
+
+p#inicio{
+    font-family: "Great Vibes", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1cm;
+    text-align: justify;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-bottom: 1cm;
+}
+
+section{
+    display: flex;
+}
+
+section div.desert{
+    margin: 2%;
+}
+
+section div h2{
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Great Vibes", cursive;
+}
+
+section div p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section div img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 15%;
+}
+
+iframe{
+    display: flex;
+justify-content: space-between;
+margin-top: 2cm;
+margin-bottom: 1cm;
+margin-left: 25%;
+width: 50%;
+}
+
+footer{
+    background-color: rgb(218, 207, 146);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: #f17d90;
+    color: aliceblue;
+}
